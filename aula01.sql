@@ -2,7 +2,8 @@
 CREATE DATABASE restau_calabresa;
 
 -- definir qual banco de dados que utilizaremos
-USE restau_calabresa;
+USE restau_calabresa; -- USE serve para entrar na biblioteca
+
 
 -- Criar tabela
 CREATE TABLE funcionarios(
@@ -61,7 +62,5 @@ INSERT INTO funcionarios (nome, cargo, data_nascimento, salario)
 
 -- Consultar todas as colunas da tabela funcionarios
 SELECT id, nome, cargo, data_nascimento, salario FROM funcionarios;
-
-
 
 
