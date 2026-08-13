@@ -65,3 +65,4 @@ CREATE TABLE pets (
 
 
 INSERT INTO pets (nome, data_nascimento, id_clientes, id_racas) VALUES ("pasto alemao", 2026, 1, 2, )
+INSERT INTO 
