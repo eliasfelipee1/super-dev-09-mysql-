@@ -171,7 +171,6 @@ id	id_comanda	id_prato_feito	quantidade
 
 CREATE TABLE comandas_pratos_feitos (
     id INT PRIMARY KEY AUTO_INCREMENT,
-
     id_comanda INT NOT NULL,
     id_prato_feito INT NOT NULL,
     quantidade INT NOT NULL,
